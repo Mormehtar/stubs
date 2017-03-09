@@ -1,0 +1,31 @@
+{
+  "name": "stubs",
+  "version": "1.0.0",
+  "description": "Collection of sinon stubs for different modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mormehtar/stubs.git"
+  },
+  "keywords": [
+    "sinon",
+    "stub"
+  ],
+  "author": {
+    "name": "Ilya 'Dark Rider' Volkov",
+    "email": "mormehtar@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mormehtar/stubs/issues"
+  },
+  "homepage": "https://github.com/Mormehtar/stubs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "redis-commands": "^1.3.1",
+    "sinon": "^1.17.7"
+  }
+}

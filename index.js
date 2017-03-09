@@ -1,0 +1,1 @@
+exports.ioredis = require('./modules/ioredis');
