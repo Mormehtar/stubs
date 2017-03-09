@@ -1,5 +1,6 @@
 const sinon = require('sinon');
 const Promise = require('bluebird');
+
 const COMMANDS = require('redis-commands').list;
 
 function buildCommands(obj, commands) {
@@ -8,7 +9,6 @@ function buildCommands(obj, commands) {
     obj[command].returns(Promise.resolve());
   });
 }
-
 function Connection(...args) {
   this.args = args;
   this.pipelines = [];
